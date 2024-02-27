@@ -6,3 +6,9 @@ phase-0*.md
 
 # Ignore aa-times example in Images
 /images/aa-times.png
+
+# Ignore instructions
+instructions.md
+
+# Ignore styles.md
+styles.md

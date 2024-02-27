@@ -1,1 +1,119 @@
-/* Your code here */
+/* Layout */
+.masthead {
+    min-height: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 15% 2fr;
+    border-bottom: 1px solid var(--clr-light-gray);
+}
+.masthead__menu-and-search {
+    grid-area: 1 / 1 / 2 / 2;
+    /* background-color: yellow; */
+}
+.masthead__actions {
+    grid-area: 1 / 3 / 1 / 3;
+    /* background-color: green; */
+}
+.masthead__technologies {
+    grid-area: 2 / 2 / 3 / 2;
+    /* background-color: red; */
+}
+.masthead__date {
+    grid-area: 3 / 1 / 3 / 2;
+    /* background-color: blue; */
+}
+.masthead__logo {
+    grid-area: 3 / 2 / 3 / 2;
+    /* background-color: orange; */
+}
+.masthead__paper {
+    grid-area: 3 / 3 / 3 / 3;
+    /* background-color: pink; */
+}
+
+/* menu-and-search */
+.masthead__menu-and-search {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.menu-and-search {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.menu-and-search i:hover {
+    cursor: pointer;
+    color: var(--clr-lightest-gray);
+}
+
+/* Action buttons */
+.masthead__actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* padding-right: 20px; */
+}
+
+.masthead__actions > div {
+    padding: 10px 20px 10px 0px;
+}
+
+/* Technologies */
+.masthead__technologies {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.technologies {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: var(--clr-dark-gray);
+    border-top: 1px solid var(--clr-light-gray);
+    /* border-bottom: 1px solid var(--clr-white); */
+    border-left: 1px solid var(--clr-light-gray);
+    border-right: 1px solid var(--clr-light-gray);
+    background-color: var(--clr-white);
+    position: relative;
+    top: 1px;
+}
+
+.technologies > span {
+    margin: 0 5px;
+}
+
+/* Logo */
+.masthead__logo {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid var(--clr-light-gray);
+    /* border-top: 1px solid red; */
+}
+
+/* Date */
+.masthead__date {
+    display: flex;
+    align-items: flex-end;
+    border-top: 1px solid var(--clr-light-gray);
+}
+.date {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* Newspaper */
+.masthead__paper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 1px solid var(--clr-light-gray);
+}
+.newspaper {
+    display: flex;
+    gap: 5px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
