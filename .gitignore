@@ -1,0 +1,8 @@
+# Ignore specifications
+/specifications/
+
+# Ignore phase instructions
+phase-0*.md
+
+# Ignore aa-times example in Images
+/images/aa-times.png
