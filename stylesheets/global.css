@@ -19,6 +19,7 @@ body {
     /* background-color: black;
     color: white; */
     background-color: var(--clr-white);
+    font-size: 12px;
 }
 
 button {
@@ -44,4 +45,23 @@ main {
     margin: auto;
     max-width: 1400px;
     padding: 0 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 16px;
+}
+
+.author {
+    color: var(--clr-gray);
+    font-size: 12px;
+}
+
+.comments-count a {
+    color: var(--clr-darkest-blue);
+    font-weight: 700;
+    cursor: pointer;
 }
