@@ -44,7 +44,7 @@
 
 .menu-and-search i:hover {
     cursor: pointer;
-    color: var(--clr-lightest-gray);
+    color: var(--clr-gray);
 }
 
 /* Action buttons */
