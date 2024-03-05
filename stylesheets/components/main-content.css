@@ -162,3 +162,19 @@
         display: none;
     }
 }
+@media screen and (max-width: 750px) {
+    .main-content__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-content__header {
+        border-bottom: 1px solid var(--clr-dark-gray);
+        padding-bottom: 10px;
+    }
+
+    .main-content__left {
+        border-bottom: 1px solid var(--clr-light-gray);
+        padding-bottom: 10px;
+    }
+}
